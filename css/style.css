@@ -1,0 +1,788 @@
+
+/* Fuentes */
+
+@font-face {
+    font-family: 'gobCL';
+    src: url('../fonts/gobCL/gobCL_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gobCL';
+    src: url('../fonts/gobCL/gobCL_Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+
+body {
+    font-family: 'gobCL', sans-serif !important;
+}
+
+
+html {
+    scroll-behavior: smooth !important;
+
+}
+
+
+
+
+/* Estilos para el ícono de WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e; /* Cambia el color al pasar el mouse */
+}
+
+.whatsapp-icon {
+    margin-top: 1px; /* Ajusta la posición del ícono si es necesario */
+}
+
+
+
+/* Estilos para el ícono de Scroll UP flotante */
+.scroll-up {
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    background-color: #486f99; /* Color de WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.scroll-up:hover {
+    background-color: #5379a4; /* Cambia el color al pasar el mouse */
+}
+
+.scroll-up {
+    margin-top: 1px; /* Ajusta la posición del ícono si es necesario */
+}
+
+
+
+/* titulo de cada secciom */
+
+.title-s {
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    font-size: 32px;
+}
+
+/*----------------------------------------------------------------------------------------------------- Seccion 1 ------------------------------------------------------------------------------------------------------------ */ 
+
+.section-1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text-logo{
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-logo2{
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bg-color-nav {
+    background-color: #486f99;
+}
+
+
+.options {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.options a {
+    font-size: 24px;
+    margin: 10px 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bgcontacto {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #486f99 !important;
+    padding: 3px 14px;
+    margin: 0 10px !important;
+
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.title {
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn-custom {
+    background-color: #7398c4 !important;
+    border-color: #5f84ac !important;
+    color: white !important;  
+    border-radius: 16px !important;
+    padding: 5px 25px !important;
+}
+
+.btn-custom:hover {
+    background-color: #5f84ac !important;
+    border-color: #4a6e93 !important;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Seccion 2 ------------------------------------------------------------------------------------------------------------ */ 
+
+.section-2 {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+.section2-title {
+  margin-bottom: 6rem;
+}
+
+.service-box {
+
+    background: white;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box i {
+    font-size: 40px;
+    color: #7398c4; /* Color del icono */
+    margin-bottom: 10px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ver-mas {
+    display: block;
+    text-align: center;
+    color: rgba(115, 152, 196, 0.5); /* Color transparente */
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ver-mas:hover {
+    color: #7398c4;
+}
+
+
+
+
+@media screen and (max-width: 1399px) {
+    .service-box i {
+        font-size: 28px;
+    }
+    
+
+    .service-box {
+        padding: 50px;
+    }
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Seccion 3------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+
+
+.section-3 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Contenedor principal del equipo */
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;;
+    padding: 20px;
+    margin: 0 8rem;
+}
+
+/* Estilos para cada miembro del equipo */
+.team-member {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Imagen redonda */
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Nombre del perfil */
+.profile-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Cargo y email */
+.profile-role, .profile-email {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Iconos de redes sociales */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    background-color: #486f99;
+    border-radius: 10px;
+    padding: 3px 8px;
+    color: #ffffff;
+    margin: 0px 3px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #25d366; /* Color de WhatsApp para el hover */
+}
+
+.fa-facebook:hover {
+    color: #1877f2; /* Color de Facebook */
+}
+
+.fa-instagram:hover {
+    color: #e4405f; /* Color de Instagram */
+}
+
+.fa-whatsapp:hover {
+    color: #25d366; /* Color de WhatsApp */
+}
+
+
+@media screen and (max-width: 1656px) {
+
+    .team-member {
+        text-align: center;
+        padding: 77px;
+        border-radius: 10px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+
+    }
+    
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Seccion 4------------------------------------------------------------------------------------------------------------ */ 
+
+
+.section-4 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 400px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: #f1c40f;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.comment {
+    color: #34495e;
+    line-height: 1.6;
+    font-size: 1em;
+    margin-top: auto;
+}
+
+/* Botones de navegación */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(52, 73, 94, 0.7);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+
+.nav-button:hover {
+    background: #2c3e50;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }
+
+/* Indicadores */
+.indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(52, 73, 94, 0.3);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.indicator.active {
+    background: #2c3e50;
+}
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+    .review-card {
+        width: 360px;
+        min-height: 270px;
+    }
+    
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- section 5 ------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+
+
+
+
+
+.section-5 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.carousel2 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides-container2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide2 {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-card2 {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 70rem;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-card2 h3 {
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.date2 {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.stars2 {
+    color: #f1c40f;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.comment2 {
+    color: #34495e;
+    line-height: 1.6;
+    font-size: 1em;
+    margin-top: 2rem;
+}
+
+.nav-button2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(52, 73, 94, 0.7);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+
+.nav-button2:hover {
+    background: #2c3e50;
+}
+
+.prev2 {
+    left: 20px;
+}
+
+.next2 {
+    right: 20px;
+}
+
+.indicators2 {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(52, 73, 94, 0.3);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.indicator2.active2 {
+    background: #2c3e50;
+}
+
+
+/*----------------------------------------------------------------------------------------------------- Contacto ------------------------------------------------------------------------------------------------------------ */ 
+
+
+.contacto {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+/* Contenedor del formulario */
+.form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Formulario */
+.contact-form {
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #486f99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensaje de agradecimiento */
+.thank-you-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+/* Redes sociales */
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #486f99;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #0056b3;
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    flex: 1;
+    background-image: url('../img/background.jpg'); /* Cambia por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Footer ------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../img/footer.png");
+    background-size: 100% auto; /* Ancho completo, altura automática */
+    background-position: bottom; /* Alinea la imagen en la parte inferior */
+    background-repeat: no-repeat;
+
+    position: relative;
+    overflow: hidden;
+}
