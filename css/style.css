@@ -746,12 +746,7 @@ html {
 }
 
 /* Contenedor de la imagen */
-.image-container {
-    flex: 1;
-    background-image: url('../img/background.jpg'); /* Cambia por la ruta de tu imagen */
-    background-size: cover;
-    background-position: center;
-}
+
 
 
 
